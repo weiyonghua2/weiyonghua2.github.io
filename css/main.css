@@ -7,6 +7,7 @@
 .head_menu li{float: left;font-size:14px;font-family: 'microsoft yahei',SimSun,Verdana,Arial;margin-top: 43px}
 .head_menu li a{display: block;  padding: 0px;  text-align: center; text-decoration: none;  width: 110px;  color: #FFF;}
 .head_menu li a:hover{color:#fae69f}
+
 .con{ }
 .banner{margin-top: 10px;}
 .banner img{width:100%;}
