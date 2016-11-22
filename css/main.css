@@ -9,7 +9,8 @@
 .head_menu li a:hover{color:#fae69f}
 
 .con{ }
-.banner{margin-top: 10px;}
+.banner{margin-top: 10px;margin-bottom:10px;width:1150px;height: 447px;overflow: hidden; position: relative;}
+.banner a{display: block;position:absolute;left: 0;top: 0;width:100%;}
 .banner img{width:100%;}
 .con_img{position: relative;}
 .con_img img{width:100%;}
