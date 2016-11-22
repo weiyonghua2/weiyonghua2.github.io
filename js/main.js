@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+    //轮播
     function autoimg(time){
         var img = $('.banner a');
         var len = img.length;
@@ -26,15 +26,6 @@ $(document).ready(function(){
         }
     }
     autoimg(10000);
-
-
-
-
-
-
-
-
-
 
 
 });

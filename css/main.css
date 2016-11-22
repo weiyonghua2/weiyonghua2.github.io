@@ -6,7 +6,8 @@
 .head_menu{width:770px;height: 100px; float: right;}
 .head_menu li{float: left;font-size:14px;font-family: 'microsoft yahei',SimSun,Verdana,Arial;margin-top: 43px}
 .head_menu li a{display: block;  padding: 0px;  text-align: center; text-decoration: none;  width: 110px;  color: #FFF;}
-.head_menu li a:hover{color:#fae69f}
+.head_menu li a:hover{color:#fae69f;}
+.head_menu li a.head_menu_act{color:#fae69f;}
 
 .con{ }
 .banner{margin-top: 10px;margin-bottom:10px;width:1150px;height: 447px;overflow: hidden; position: relative;}
@@ -75,3 +76,17 @@
     line-height: 40px;}
 
 .Statistics{float: left;margin-top: 10px;}
+
+/*公司简介*/
+.company-porfile{color: #494949; font-size: 16px;margin-bottom: 50px;}
+.company-porfile p{text-align: left;text-indent: 30px;margin-top:20px;}
+.company-porfile h3{text-align: left;margin-top:20px;font-weight: normal;}
+
+/*产品展示*/
+.product-display{min-height: 400px;}
+
+/*动态新闻*/
+.news-information{min-height: 800px;}
+
+/*联系我们*/
+.contact-us{min-height: 400px;}

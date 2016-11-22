@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="伯爵II,伯爵2,伯爵2娱乐平台，伯爵2登陆地址,伯爵2登陆,,伯爵登陆" />
+    <meta name="description" content="伯爵2登陆地址" />
+    <title>伯爵2登陆地址</title>
+    <script src="js/jquery.min.js"></script>
+    <style>
+        *{padding: 0;  margin:0; box-sizing: border-box;list-style: none;border: none;}
+        body{background: #046667;}
+        .ful-container{margin: 30px auto 0;width:800px;height: 600px; }
+        .ful-container .title{margin: 0 auto;display: block;}
+        #ulhtml{width:100%;padding:40px;border-radius: 10px;background: #023334;}
+        #ulhtml dt{width: 100%;  height: 35px;  line-height: 35px;  padding: 0 15px; margin-bottom: 35px;position: relative;}
+        #ulhtml dt em{ font-size: 22px;color: #fff; font-style: normal; float: left;}
+        #ulhtml dt a{display:block;width: 80px; float: right; font-size: 14px; color: #fff; text-align: center; text-decoration: none;border-radius: 10px;background: #5946B0;}
+        #ulhtml dt .tips{ max-width: 580px;padding: 0 10px;border-radius: 10px;height: 35px;line-height: 35px;position: absolute;font-size: 14px;
+            color: #fff;left: 155px;
+        }
+        #ulhtml dd{width: 100%;  height: 35px;  line-height: 35px;  padding: 0 15px; margin-bottom: 20px;position: relative;}
+        #ulhtml dd b{display: block;width: 70px;height:30px;font-size: 12px;font-weight: normal;color: #fff;float: left;}
+        #ulhtml dd strong {width: 520px;background: rgba(119,152,202,0.2);font-size: 14px;margin-left: 10px;padding: 0 10px;border-radius: 10px;color: #fff;display: block;float: left;}
+        #ulhtml dd a{display:block;width: 80px; float: right; font-size: 14px; color: #ffb20c; text-align: center; text-decoration: none;}
+    </style>
+</head>
+<body>
+  <div class="ful-container">
+      <img src="img/title.png" class="title">
+      <dl id="ulhtml">
+          <dt><em>线路检测</em><a href="javascript:void(0);" onclick="location.reload()" class="re-test">重新检测</a><div class="tips">伯爵娱乐提示您：请根据最少秒数.选择最快的线路进入</div></dt>
+          <dd class="lihtml"><b class="ping">检测中...</b><strong class="line">http://www.xinbojue0.com</strong><a class="aurl" href="http://www.xinbojue0.com" target="_blank">进入</a></dd>
+          <dd class="lihtml"><b class="ping">检测中...</b><strong class="line">http://www.xinbojue6.com</strong><a class="aurl" href="http://www.xinbojue6.com" target="_blank">进入</a></dd>
+          <dd class="lihtml"><b class="ping">检测中...</b><strong class="line">http://www.xinbojue7.com</strong><a class="aurl" href="http://www.xinbojue7.com" target="_blank">进入</a></dd>
+          <dd class="lihtml"><b class="ping">检测中...</b><strong class="line">http://www.xinbojue8.com</strong><a class="aurl" href="http://www.xinbojue8.com" target="_blank">进入</a></dd>
+          <dd class="lihtml"><b class="ping">检测中...</b><strong class="line">http://www.xinbojue9.com</strong><a class="aurl" href="http://www.xinbojue9.com" target="_blank">进入</a></dd>
+      </dl>
+  </div>
+  <div class="imgdiv" style="display: none;"></div>
+<script language="javascript">
+tim=1;
+var setTime = setInterval(clearIn,100);
+//清除定时器，避免无限自增
+function clearIn(){
+    if(tim == 200){
+        clearInterval(setTime);
+    }else {
+        tim++
+    }
+}
+var autourl= $('#ulhtml dd');
+function auto(url){
+    if(tim>200) {
+        for(var i=0;i<autourl.length;i++){
+            if(autourl.eq(i).find('.line').html()==url){
+                autourl.eq(i).find('.ping').html("链接超时");
+            }
+        }
+    } else {
+        for(var i=0;i<autourl.length;i++){
+            if(autourl.eq(i).find('.line').html()==url){
+                autourl.eq(i).find('.ping').html(tim/10+"秒");
+            }
+        }
+    }
+}
+function run(){
+    for(var i=0;i<autourl.length;i++){
+        var line = autourl.eq(i).find('.line').html();
+        var imghtml = "<img src="+line+"/"+Math.random()+" onerror=auto('"+line+"')>";
+        $(imghtml).appendTo($('.imgdiv'));
+    }
+}
+run();
+</script>
+</body>
+</html>
