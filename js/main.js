@@ -9,23 +9,23 @@ $(document).ready(function(){
         function auto(){
             if(intN < len){
                 if(intN == 0){
-                    img.eq(intN).addClass('animated zoomInLeft').show().siblings().hide();
+                    img.eq(intN).addClass('animated zoomIn').show().siblings().hide();
                 }
                 if(intN == 1){
-                    img.eq(intN).addClass('animated zoomInDown').show().siblings().hide();
+                    img.eq(intN).addClass('animated zoomInLeft').show().siblings().hide();
                 }
                 if(intN == 2){
-                    img.eq(intN).addClass('animated shake').show().siblings().hide();
+                    img.eq(intN).addClass('animated zoomInUp').show().siblings().hide();
                 }
                 intN += 1;
             }else {
                 intN = 0;
-                img.eq(intN).addClass('animated zoomInLeft').show().siblings().hide();
+                img.eq(intN).addClass('animated zoomIn').show().siblings().hide();
                 intN += 1;
             }
         }
     }
-    autoimg(5000);
+    autoimg(10000);
 
 
 
