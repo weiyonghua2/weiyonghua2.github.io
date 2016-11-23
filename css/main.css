@@ -1,30 +1,117 @@
-*{padding: 0;  margin:0; box-sizing: border-box;list-style: none;border: none;}
-.pwidth{width: 1150px;margin: 0 auto;}
-.head{height: 100px;width:100%;background: #006464;}
-.head_auto{height: 100px;}
-.head_img{display: block;margin-top:10px; float: left;}
-.head_menu{width:770px;height: 100px; float: right;}
-.head_menu li{float: left;font-size:14px;font-family: 'microsoft yahei',SimSun,Verdana,Arial;margin-top: 43px}
-.head_menu li a{display: block;  padding: 0px;  text-align: center; text-decoration: none;  width: 110px;  color: #FFF;}
-.head_menu li a:hover{color:#fae69f;}
-.head_menu li a.head_menu_act{color:#fae69f;}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-family: "Microsoft YaHei", "simhei", "\5b8b\4f53", Helvetica, arial, sans-serif;
+}
 
-.con{ }
-.banner{margin-top: 10px;margin-bottom:10px;width:1150px;height: 447px;overflow: hidden; position: relative;}
-.banner a{display: block;position:absolute;left: 0;top: 0;width:100%;}
-.banner img{width:100%;}
-.con_img{position: relative;}
-.con_img img{width:100%;}
-.con_text{overflow: hidden;position: absolute;bottom: 80px;left: 117px;}
-.con_text li{width: 210px;  margin-right: 26px;
+.pwidth {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.head {
+    height: 100px;
+    width: 100%;
+    background: #006464;
+}
+
+.head_auto {
+    height: 100px;
+}
+
+.head_img {
+    display: block;
+    margin-top: 10px;
+    float: left;
+}
+
+.head_menu {
+    width: 770px;
+    height: 100px;
+    float: right;
+}
+
+.head_menu li {
+    float: left;
+    font-size: 14px;
+    font-family: 'microsoft yahei', SimSun, Verdana, Arial;
+    margin-top: 43px
+}
+
+.head_menu li a {
+    display: block;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    width: 110px;
+    color: #FFF;
+}
+
+.head_menu li a:hover {
+    color: #fae69f;
+}
+
+.head_menu li a.head_menu_act {
+    color: #fae69f;
+}
+
+.con {
+}
+
+.banner {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 1150px;
+    height: 447px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner a {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.con_img {
+    position: relative;
+}
+
+.con_img img {
+    width: 100%;
+}
+
+.con_text {
+    overflow: hidden;
+    position: absolute;
+    bottom: 80px;
+    left: 117px;
+}
+
+.con_text li {
+    width: 210px;
+    margin-right: 26px;
     overflow: hidden;
     text-align: center;
-    float: left;}
+    float: left;
+}
+
 .con_text h2 {
     font-weight: normal;
     font-size: 18px;
     color: #666666;
 }
+
 .con_text p {
     width: 120px;
     margin: 0 auto;
@@ -33,33 +120,44 @@
     color: #a5a5a5;
 }
 
-.data { height: 200px;  background: #f9f9f9;  }
-.data_box{  }
+.data {
+    height: 200px;
+    background: #f9f9f9;
+}
+
+.data_box {
+}
+
 .data .data_box li {
     width: 25%;
     float: left;
     padding-top: 48px;
     position: relative;
 }
+
 .data .data_box li h3 {
     font-size: 20px;
     color: #262626;
     line-height: 20px;
 }
-.data .data_box li>span {
+
+.data .data_box li > span {
     font-size: 14px;
     color: #8a8989;
     line-height: 14px;
 }
+
 .data .data_box li p {
     font-size: 60px;
     color: #0093a1;
     line-height: 60px;
 }
+
 .data .data_box li p span {
     font-size: 12px;
     color: #777676;
 }
+
 .data .data_box li em {
     font-size: 14px;
     color: #e1e1e1;
@@ -70,23 +168,146 @@
     line-height: 14px;
     text-align: right;
 }
-.footer{height:40px;background:#067B7C;width:100%;}
-.footer .Reserved{float: right;
-    color: white;
-    line-height: 40px;}
 
-.Statistics{float: left;margin-top: 10px;}
+.footer {
+    height: 40px;
+    background: #067B7C;
+    width: 100%;
+}
+
+.footer .Reserved {
+    float: right;
+    color: white;
+    line-height: 40px;
+}
+
+.Statistics {
+    float: left;
+    margin-top: 10px;
+}
 
 /*公司简介*/
-.company-porfile{color: #494949; font-size: 16px;margin-bottom: 50px;}
-.company-porfile p{text-align: left;text-indent: 30px;margin-top:20px;}
-.company-porfile h3{text-align: left;margin-top:20px;font-weight: normal;}
+.company-porfile {
+    color: #494949;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.company-porfile p {
+    text-align: left;
+    text-indent: 30px;
+    margin-top: 20px;
+}
+
+.company-porfile h3 {
+    text-align: left;
+    margin-top: 20px;
+    font-weight: normal;
+}
 
 /*产品展示*/
-.product-display{min-height: 400px;}
+.product-display {
+    min-height: 400px;
+}
 
 /*动态新闻*/
-.news-information{min-height: 800px;}
+.news-wrap{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.news-information {
+    border: 1px #dedede solid;
+    width: 70%;
+    float: left;
+    min-height: 800px;
+}
 
+.hot-news {
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #006464;
+    position: relative;
+}
+
+.hot-news h2 {
+    color: #000;
+    text-indent: 20px;
+    background-color: #e7e7e7;
+    font-size: 18px;
+    font-weight: normal;
+}
+.hot-news span {
+    color: #999;
+    font-size: 14px;
+    position: absolute;
+    left: 105px;
+    top:3px;
+}
+
+.hot-newsList {
+    width: 100%;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+.hot-newsList li{
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.hot-newsList li a{
+  color: #333;
+    display:block;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    width: 600px;
+    float: left;
+}
+.hot-newsList li span{
+    color: #999;
+    float: right;
+}
+.recommend{
+    border: 1px #dedede solid;
+    width: 28%;
+    float: right;
+}
+/*内容详情*/
+.news-details{
+    padding:20px;
+    width: 100%;
+}
+.news-details h1{
+    text-align: center;
+   font-size: 24px;
+    font-weight:normal;
+}
+.time-link{
+border-bottom: 1px solid #DDDDDD;
+    color: #999;
+    margin-top:30px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.time-link .time{
+    padding: 0 10px;
+}
+.time-link .link{
+    padding: 0 10px;
+}
+.news-text{overflow: hidden;}
+.news-text p{
+    text-indent: 32px;
+    color:#383838;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.news-text img{
+    display: block;
+    margin:30px auto;
+}
 /*联系我们*/
-.contact-us{min-height: 400px;}
+.contact-us {
+    min-height: 400px;
+}
